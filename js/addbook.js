@@ -49,13 +49,6 @@ function isStorageExist() /* boolean */ {
  *
  * @returns boolean
  */
-function isStorageExist() /* boolean */ {
-    if (typeof (Storage) === undefined) {
-      alert(`Browser kamu tidak mendukung local storage`);
-      return false;
-    }
-    return true;
-  }
   
   /**
    * Fungsi ini digunakan untuk menyimpan data ke localStorage
